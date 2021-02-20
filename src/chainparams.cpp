@@ -195,9 +195,8 @@ public:
         pchMessageStart[3] = 0xd6;
         nDefaultPort = 46003;
 
-        // Note that of those with the service bits flag, most only support a subset of possible options
-        vSeeds.push_back(CDNSSeedData("144.202.111.9", "144.202.111.9"));
-        vSeeds.push_back(CDNSSeedData("144.202.110.14", "144.202.110.14"));
+        vFixedSeeds.clear();
+        vSeeds.clear();
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 30);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 90);
