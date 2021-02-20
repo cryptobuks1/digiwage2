@@ -163,7 +163,7 @@ public:
 
         // height-based activations
         consensus.height_last_PoW = 1000;
-        consensus.height_RHF = 1516388;
+        consensus.height_RHF = 1517000;
         consensus.height_last_ZC_AccumCheckpoint = consensus.height_RHF;
         consensus.height_start_BIP65 = consensus.height_RHF;             // 82629b7a9978f5c7ea3f70a12db92633a7d2e436711500db28b97efd48b1e527
         consensus.height_start_MessSignaturesV2 = consensus.height_RHF;  // TimeProtocolV2, Blocks V7 and newMessageSignatures
